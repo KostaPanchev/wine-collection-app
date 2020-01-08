@@ -1,6 +1,11 @@
 This project was bootstrapped with [Create React App](https://create-react-app.dev/).
 
-For database uses [json-server](https://github.com/typicode/json-server )
+
+This is a simple application for managing wine collection. The user has options to create, update and delete wines. The products can be sorted and filtered based on various criteria. Changing the filtersOptions and sortingOptions can be done in [config.js](src/config.js). Even though the application is small it is very modular and the application's state is stored in redux store which helps for future maintenance and adding new features. It also includes error handler, that will display eventual problems with http request or others, it also provides feedback while updating the data(spinner). For styling I used [css modules](https://github.com/css-modules/css-modules) which provides encapsulation for css rules.
+
+For database I used a mock server. [json-server](https://github.com/typicode/json-server )
+
+
 
 ### 1 Install JSON Server
 
@@ -45,12 +50,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
