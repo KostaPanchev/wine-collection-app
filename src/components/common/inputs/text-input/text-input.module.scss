@@ -1,0 +1,73 @@
+@import '../../../../sass-variables';
+
+.textInput {
+    margin-bottom: .5rem;
+}
+
+.label {
+    display: block;
+    width: 100%;
+    font-size: .7rem;
+    color: $blueGrey;
+    text-transform: uppercase;
+    padding-left: .3rem;
+    span {
+        color: $red;
+    }
+}
+
+.length {
+    
+    color: $blueGrey;
+    font-size: .7em;
+    margin-top: .3em;
+    text-align: right;
+    // padding-right: 3em;
+    font-weight: 300;
+    padding-left: .5em;
+    span {
+        color: $blueGrey;
+        font-weight: 500;
+    }
+}
+
+.inputField {
+    display: flex;
+    
+    input,
+    textarea {
+        // width: 80%;
+        flex: 1;
+        font-size: .9em;
+        background-color: $bgColor;
+        padding: .3em;
+        border-radius: .3rem;
+        border: 1px solid $blueGrey100;
+        margin-top: .3rem;
+        &::placeholder {
+            color: lighten($blueGrey, 10%);
+            font-weight: 300;
+        }
+    }
+    textarea {
+        height: 5em;
+    }
+
+    // input:invalid,
+    // textarea:invalid {
+        // background-color: #FFCDD2;
+    // }
+
+    textarea:invalid + span::after,
+    input:invalid + span::after {
+        display: inline-block;
+        content: '*';
+        color: $red;
+    }
+}
+
+.validity {
+    flex-shrink: 0;
+    width: 1em;
+    text-align: center;
+}

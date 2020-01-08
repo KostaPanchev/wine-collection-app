@@ -1,0 +1,24 @@
+@import '../../../sass-variables';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.title {
+    width: 100px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectInput {
+    margin-right: 1rem;
+    width: auto;
+    min-width: 100px;
+}

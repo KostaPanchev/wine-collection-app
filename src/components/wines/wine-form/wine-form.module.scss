@@ -1,0 +1,87 @@
+@import '../../../sass-variables';
+
+.form {
+    width: 100%;
+}
+
+.formEdit {
+    composes: form;
+    padding: 2rem;
+}
+
+.formSave {
+    max-width: 700px;
+    composes: form;
+    padding: 2rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    box-shadow: $shadow4;
+}
+
+.inner {
+    @media only screen and (min-width: 600px){
+        display: flex;
+    }
+}
+
+.wineImage {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 2rem;
+    @media only screen and (min-width: 600px){
+        margin-right: 2rem;
+    }
+}
+
+.wineInfo {
+    flex: 1;
+}
+
+.productionInfo {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.productionInfoSelect {
+    flex: 1;
+    margin-right: 1rem;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.rating {
+    margin-bottom: 1rem;
+}
+.buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+   width: 120px;
+   padding: .5rem 1rem;
+   font-size: .8rem;
+   text-transform: uppercase;
+   appearance: none;
+   border: none;
+   color: #fff;
+   border-radius: .3rem;
+   transition: all .3s ease;
+   box-shadow: $shadow1;
+   &:hover {
+       transform: scale(1.03);
+   }
+}
+
+.saveBtn {
+    composes: btn;
+    background-color: $teal400;
+}
+
+.cancelBtn {
+    margin-left: .5rem;
+    composes: btn;
+    background-color: $blueGrey;
+}

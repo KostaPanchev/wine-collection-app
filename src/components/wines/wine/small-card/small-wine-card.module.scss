@@ -1,0 +1,35 @@
+@import '../../../../sass-variables';
+
+.card {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    background-color: #fff;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    transition: all .2s ease;
+    &:hover {
+        box-shadow: $shadow2;
+        transform: scale(1.03);
+    }
+}
+
+.cartdImg {
+    margin-right: 1rem;
+    flex: 1;
+}
+
+.cardInfo {
+    text-align: right;
+    flex: 2;
+}
+
+.name {
+    margin: 0;
+}
+
+.info {
+    margin-top: .3rem;
+    font-size: .9rem;
+}

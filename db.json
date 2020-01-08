@@ -1,0 +1,116 @@
+{
+  "wines": [
+    {
+      "id": 1,
+      "name": "Amarone",
+      "description": "From Italy’s Veneto Region a strong, dry, long- lived red, made from a blend of partially dried red grapes.",
+      "country": "Italy",
+      "year": "2019",
+      "rating": "0"
+    },
+    {
+      "id": 2,
+      "name": "Barbaresco",
+      "description": "A red wine from the Piedmont Region of Italy, made from Nebbiolo grapes it is lighter than Barolo.",
+      "country": "Italy",
+      "year": "2017",
+      "rating": "2"
+    },
+    {
+      "id": 3,
+      "name": "Blush",
+      "description": "American term for rosé. Any wine that is pink in color.",
+      "country": "USA",
+      "year": "2019",
+      "rating": "0"
+    },
+    {
+      "id": 4,
+      "name": "Cava",
+      "description": "Spanish sparkling wine. Produced by the méthode champenoise.",
+      "country": "Spain",
+      "year": "2018",
+      "rating": "4"
+    },
+    {
+      "id": 5,
+      "name": "Chianti Classico",
+      "description": "From a designated portion of the Chianti wine district. To be labeled Chianti Classico, both vineyard and winery must be within the specified region.",
+      "country": "Italy",
+      "year": "2018",
+      "rating": "5"
+    },
+    {
+      "id": 6,
+      "name": "Dolcetto",
+      "description": "From northwest Piedmont it produces soft, round, fruity wines fragrant with licorice and almonds.",
+      "country": "Spain",
+      "year": "2016",
+      "rating": "2"
+    },
+    {
+      "id": 7,
+      "name": "Frascati",
+      "description": "An Italian fruity, golden white wine, may be dry to sweet.",
+      "country": "Italy",
+      "year": "2015",
+      "rating": "0"
+    },
+    {
+      "id": 8,
+      "name": "Grappa",
+      "description": "An Italian spirit distilled from pomace. Dry and high in alcohol, it is an after dinner drink.",
+      "country": "Italy",
+      "year": "2017",
+      "rating": "1"
+    },
+    {
+      "id": 9,
+      "name": "Grenache",
+      "description": "Used mainly for blending and the making of Rose and Blush Wines in California, while in France it is blended to make Chateauneuf-du-Pape. Originally from Spain is the second most widely grown grape in",
+      "country": "USA",
+      "year": "2018",
+      "rating": "0"
+    },
+    {
+      "id": 10,
+      "name": "Lambrusco",
+      "description": "A fizzy, usually red, dry to sweet wine from northern Italy, made from the grape of the same name.",
+      "country": "Italy",
+      "year": "2018",
+      "rating": "0"
+    },
+    {
+      "name": "Muscat",
+      "description": "Also known as Muscat Blanc and Muscat Canelli. With pronounced spice and floral notes it can also be used for blending. A versatile grape that can turn into anything from Asti Spumante and Muscat de C",
+      "country": "Spain",
+      "year": "2017",
+      "rating": "0",
+      "id": 12
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "description": "Grassy & herbaceous flavors and aromas mark this light and medium-bodied wine, sometimes with hints of gooseberry & black currant. In California it is often labeled Fume Blanc. New Zealand produces so",
+      "country": "USA",
+      "year": "2018",
+      "rating": "0",
+      "id": 13
+    },
+    {
+      "name": "Valpolicella",
+      "description": "A light, semidry red from Italy’s Veneto Region, typically drunk young.",
+      "country": "Italy",
+      "year": "2018",
+      "rating": "0",
+      "id": 14
+    },
+    {
+      "name": "Retsina",
+      "description": "Dry white Greek wine flavored with pine resin. Dating back to ancient Greece, it is an acquired taste. Dominant flavor is turpentine. Riesling Flavors of apricot & tropical fruit with floral aromas are characteristics of this widely varying wine.  Styles range from dry to sweet.",
+      "country": "Greece",
+      "year": "2018",
+      "rating": "3",
+      "id": 15
+    }
+  ]
+}

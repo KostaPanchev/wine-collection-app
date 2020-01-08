@@ -1,0 +1,62 @@
+@import '../../sass-variables';
+
+.winesContainer {
+    padding-bottom: 5rem;
+}
+
+.winesFilter {
+    margin-bottom: 2rem;
+    background-color: rgba($blueGrey100, .7);
+    padding: 1rem 0 2rem 0;
+    box-shadow: $shadow1;
+
+}
+
+.title {
+    color: $teal400;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.winesList {
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    @media only screen and (min-width: 500px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media only screen and (min-width: 800px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+.newCardBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    height: 4rem;
+
+}
+
+.newCardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    padding: .3rem 1rem;
+    border-radius: .3rem;
+    background-color: $teal400;
+    svg {
+        width: 1.5rem;
+        fill: #fff;
+    }
+}

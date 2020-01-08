@@ -1,0 +1,48 @@
+@import '../../sass-variables';
+
+.wrapper {
+    background-color: $red;
+    color: #fff;
+    padding: 2rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    width: 400px;
+    box-shadow: $shadow4;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.errorsList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.errorMsg {
+    font-size: .9rem;
+    margin: 0 0 .5rem 0;
+    padding: 0;
+}
+
+.clearBtn {
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: $bodyColor;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5rem 1.5rem;
+    box-shadow: $shadow1;
+    border-radius: .3rem;
+    transition: all .2s ease;
+    cursor: pointer;
+    &:hover {
+        background-color: #fff;
+        transform: scale(1.03);
+    }
+}

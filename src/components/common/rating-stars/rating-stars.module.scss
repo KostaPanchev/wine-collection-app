@@ -1,0 +1,19 @@
+@import '../../../sass-variables';
+
+.stars {
+    margin: .5rem 0;
+}
+
+.star {
+    width: 1rem;
+}
+
+.filledStar {
+    composes: star;
+    fill: $yellow;
+}
+
+.emptyStar {
+    composes: star;
+    fill: $blueGrey200;
+}
